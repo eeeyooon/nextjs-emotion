@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import TestButton from "@/components/TestButton";
 import ExampleComponent from "@/components/ExampleComponent";
 
