@@ -15,7 +15,7 @@ export default function TestButton({ message }: Props) {
 const StyledButton = styled.button<StyledProps>`
   background-color: ${({ color }) =>
     color === "primary" ? "rebeccapurple" : "blue"};
-  color: white;
+  color: ${({ theme }) => theme.color.positive};
   font-size: 16px;
   padding: 10px 20px;
   border: none;
