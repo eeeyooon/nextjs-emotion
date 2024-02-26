@@ -1,9 +1,9 @@
-import { Theme } from "@emotion/react";
+import { Theme } from '@emotion/react';
 
 const color = {
-  primary: "purple",
-  positive: "skyblue",
-  negative: "salmon",
+  primary: 'purple',
+  positive: 'skyblue',
+  negative: 'salmon',
 };
 
 const theme: Theme = {

@@ -1,7 +1,7 @@
-import { css } from "@emotion/react";
+import { css } from '@emotion/react';
 
-const color = "lightpink";
-const ExampleComponent = () => {
+const color = 'lightpink';
+function ExampleComponent() {
   return (
     <div
       css={css`
@@ -11,6 +11,6 @@ const ExampleComponent = () => {
       Emotion styled div
     </div>
   );
-};
+}
 
 export default ExampleComponent;
