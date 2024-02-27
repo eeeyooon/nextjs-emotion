@@ -24,9 +24,16 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:@next/next/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:@tanstack/eslint-plugin-query/recommended"
   ],
-  "plugins": ["prettier", "@typescript-eslint", "jest", "import"],
+  "plugins": [
+    "prettier",
+    "@typescript-eslint",
+    "jest",
+    "import",
+    "@tanstack/query"
+  ],
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "import/extensions": [
@@ -41,6 +48,10 @@
     "react/react-in-jsx-scope": 0,
     "react/jsx-props-no-spreading": 0,
     "no-console": "off",
-    "@typescript-eslint/no-use-before-define": "off"
+    "@typescript-eslint/no-use-before-define": "off",
+    "@tanstack/query/exhaustive-deps": "error",
+    "@tanstack/query/no-deprecated-options": "error",
+    "@tanstack/query/prefer-query-object-syntax": "error",
+    "@tanstack/query/stable-query-client": "error"
   }
 }
