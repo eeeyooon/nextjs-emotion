@@ -2,8 +2,8 @@ import Head from 'next/head';
 import TestButton from '@/components/TestButton';
 import ExampleComponent from '@/components/ExampleComponent';
 import Counter from '@/components/Couter';
-import Posts from '@/components/postQueryTest';
-import Users from '@/components/userQueryTest';
+import Posts from '@/components/PostQueryTest';
+import Users from '@/components/UserQueryTest';
 
 export default function Home() {
   return (
