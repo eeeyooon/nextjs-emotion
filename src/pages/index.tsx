@@ -1,6 +1,7 @@
-import Head from "next/head";
-import TestButton from "@/components/TestButton";
-import ExampleComponent from "@/components/ExampleComponent";
+import Head from 'next/head';
+import TestButton from '@/components/TestButton';
+import ExampleComponent from '@/components/ExampleComponent';
+import Counter from '@/components/Couter';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <h1>NextJS with Emotion</h1>
         <TestButton message="Test" />
         <ExampleComponent />
+        <Counter />
       </main>
     </>
   );
