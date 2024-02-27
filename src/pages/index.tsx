@@ -2,6 +2,8 @@ import Head from 'next/head';
 import TestButton from '@/components/TestButton';
 import ExampleComponent from '@/components/ExampleComponent';
 import Counter from '@/components/Couter';
+import Posts from '@/components/postQueryTest';
+import Users from '@/components/userQueryTest';
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <TestButton message="Test" />
         <ExampleComponent />
         <Counter />
+        <Posts />
+        <Users />
       </main>
     </>
   );
